@@ -16,11 +16,17 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
+	<script>
+		window.addEventListener("load", function () {
+			var preloader = document.getElementById("preloader");
+			preloader.style.display = "none";
+ 		 });
+	</script>
 </head>
 
 <body>
 
-	<div class="loader-overlay">
+	<div class="loader-overlay" id="preloader">
 		<div class="loader">
 			<div class="bar"></div>
 			<div class="bar"></div>
